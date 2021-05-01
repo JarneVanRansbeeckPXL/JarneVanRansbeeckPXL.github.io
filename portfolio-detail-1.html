@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio Activiteit - Innovatieroute: Cloud</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Gp - v4.1.0
+  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+	
+      <h1 class="logo me-auto me-lg-0"><a href="index.html"><span>Jarne Van Ransbeeck</span></a></h1>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about">Over mij</a></li>
+          <li><a class="nav-link scrollto" href="index.html#services">Overzicht</a></li>
+          <li class="dropdown"><a href="index.html#portfolio"><span>Activiteiten</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="portfolio-detail-1.html">Innovatieroute: Cloud</a></li>
+              <li><a href="portfolio-detail-2.html">Cyber Security Challenge Belgium 2021</a></li>
+              <li><a href="portfolio-detail-3.html">Seminarie: Eurofins</a></li>
+            </ul>
+          </li>
+		  <li><a class="nav-link scrollto" href="index.html#reflection">Eindreflectie</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+  </header><!-- End Header -->
+  
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Portfolio Activiteit - Innovatieroute: Cloud</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Portfolio Activiteit - Innovatieroute: Cloud</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <section class="inner-page">
+      <div class="container">
+        <p>
+        De innovatieroute rond Cloud stond in het kader van de drie grote cloudproviders genaamd Azure Cloud, AWS en Google cloud. Hierbij kwamen er een aantal gastsprekers langs van bedrijven zoals Openline, Cloudar en Frontline over drie verschillende dagen. De keuze tussen de innovatieroute van cloud en security was moeilijk, maar ik ben uiteindelijk richting cloud gegaan door het aansluitende opleidingsonderdeel Cloud & Automation.  
+        </p>
+		
+		<p>
+          Heel vaak worden er tijdens lesmomenten of seminaries bepaalde acties uitgevoerd om iets op te zetten, maar wordt dit nooit geautomatiseerd. Hierdoor was ik al vaker geprikkeld geweest om bij te leren over het automatiseren van bepaalde zaken. Deze innovatieroute was dus het ideale antwoord op deze prikkels.
+        </p>
+		
+		<p>
+          Op de eerste dag kwamen gastspreker Dennis Keyner en Dominique Hermans langs. Ze gaven ons een uitleg over het Azure cloud platform. We kregen eerst een uitgebreide uitleg over de evolutie van de infrastructuur en hoe we op het punt zijn gekomen waar we nu staan. In de namiddag werd er hands-on gewerkt aan het deployen van Infrastructure as Code op Azure aan de hand van templating.
+        </p>
+		
+		<p>
+          Normaal gezien zouden we op een rustig tempo hier een inleiding op krijgen, maar door tijdsgebrek werden we meteen aangemoedigd om zelf aan de slag te gaan. Het gebruiken van een nieuw platform vereist zelf tijd op zich. Deployments automatiseren zonder ervaring is geen makkelijke opgave, maar de gastsprekers waren bereid om ons hierbij te helpen.
+        </p>
+		
+		<p>
+          Op de tweede dag kregen we een uitleg van Ben Bridts over de werking van deployments op AWS. Dit was ongeveer hetzelfde als de eerste dag, maar dan met een andere cloudprovider. De workshop van Ben Bridts was volledig gefocust op de praktijk en was goed onderverdeeld in verschillende stappen waardoor iedereen snel mee weg was. Hier was de focus vooral gelegd op de service Cloudformation binnen AWS. 
+        </p>
+		
+		<p>
+         De werking van Cloudformation staat hieronder beschreven. Je kunt aan de hand van een template dat zowel YAML als JSON formaat kan zijn je infrastructuur coderen. Deze template kan je rechtstreeks uploaden in een S3 bucket of lokaal laten staan. Vervolgens kan je door gebruik te maken van CloudFormation deze template runnen en provisioned CloudFormation de gewenste resources. 
+        </p>
+		
+		<p>
+          Een voorbeeld van een template is hieronder te zien. Deze template zorgt ervoor dat er een S3 bucket geprovisioned wordt. Dit is slechts een basistemplate en zoals je kan zien aan de tweede afbeelding kunnen er een aantal parameters meegegeven worden zoals een naam.
+        </p>
+		
+		<p>
+		Binnen de innovatieroute van Cloud zou Payam Ebrahimi ook een workshop geven rond Google Cloud, maar door bepaalde omstandigheden was dit niet mogelijk. Deze workshop is vervangen door een seminarie, maar neem ik alsnog op onder de innovatieroute van Cloud.
+		</p>
+		
+		<p>
+		Bij deze seminarie kregen we een uitgebreide uitleg over zowel Kubernetes als Google Cloud. Hierbij gingen we hands-on deployments uitvoeren. We leerden een aantal verschillende commando’s voor het deployen, configureren en verwijderen van pods. Net zoals bij de andere workshops werd er ook gewerkt met templates voor deze deployments. Hierdoor konden we makkelijk een deployment wijzigen zonder alles van opnieuw te moeten configureren.
+		</p>
+		
+		<p>
+		Ik ben tevreden dat ik voor deze innovatieroute heb gekozen ondanks de moeilijke keuze tussen Cloud en Security. Ik heb veel bijgeleerd over het gebruik van automated deployments binnen de drie cloudproviders. De drie verschillende dagen hebben mijn prikkels op een positieve manier beantwoord en mijn interesse in dit topic versterkt. 
+		</p>
+		
+		<p>
+		Op de eerste dag was de balans tussen theorie en praktijk niet goed en was er een tijdsdruk ontstaan bij het praktijkgedeelte. Alhoewel in iets nieuw heb bijgeleerd, had ik niet het gevoel dat ik er compleet mee weg was. Doordat iedereen dezelfde ervaring deelde, was er ook niet genoeg ruimte voor de gastsprekers om iedereen op weg te helpen. De gastsprekers waren in mijn ogen niet zo goed voorbereid en konden meer inzet tonen om de problemen te verhelpen.
+		</p>
+		
+		<p>
+		De tweede dag was mijn favoriete dag. Hierbij werd er gewerkt met het AWS platform. Dit platform zelf is vrij overzichtelijk en gebruiksvriendelijk. De gastspreker had een goede keuze gemaakt om te verdiepen op één service binnen AWS en na een korte introductie hierover meteen in de praktijk aan de slag te gaan.
+		</p>
+		
+		<p>
+		De derde dag was de meest leerrijke dag, maar ook de kortste dag omdat dit enkel een voormiddag lang duurde. De kennis die ik hier opgedaan heb, heeft mij ondertussen al geholpen bij mijn stageopdracht en ik ben de gastspreker hier dan ook dankbaar voor. Op deze korte tijdsperiode heeft hij er het beste van gemaakt.
+		</p>
+		
+		<p>
+		Deze volledige innovatieroute is een belangrijke link naar mijn interesses binnen mijn opleiding en daardoor heb ik deze in detail besproken.
+		</p>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright 2021 <strong><span>Jarne Van Ransbeeck</span></strong>
+      </div>
+      <div class="credits">
+
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
